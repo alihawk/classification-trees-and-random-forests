@@ -525,7 +525,7 @@ def hw_tree_full(train, test):
     return (train_error, train_se), (test_error, test_se)
 
 
-def hw_randomforests(train, test, num_trees):
+def hw_randomforests(train, test, num_trees=100):
     """
     Build a random forest with 'num_trees' trees, predict on the training and testing sets,
     and compute misclassification rates and standard errors.

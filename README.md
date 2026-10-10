@@ -18,9 +18,23 @@ The code is compatible with Python 3.12 and relies on standard libraries such as
 - `hw_tree.py`: The main Python code implementing the decision tree, random forest, and variable importance methods.
 - `test_hw_tree.py`: Unit tests for verifying the functionality of the implementation.
 - `tki-train.tab` and `tki-test.tab`: The TKI resistance FTIR spectral data files used for training and testing.
-- `report.pdf` (or the LaTeX source files): The project report explaining the methodology, experiments, and results.
+- `Homework_1___DS_ Muhammad_Ali.pdf`: The project report explaining the methodology, experiments, and results.
+- `hw_tree_template.py`, `treesHW.py`: The original assignment template and an earlier, simpler version of the tree code.
 
 ## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the tests:
+
+```bash
+python -m unittest test_hw_tree
+```
+
 
 To run the project from the command line, navigate to the project directory and execute:
 
