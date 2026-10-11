@@ -8,3 +8,10 @@ output.pdf
 
 # Ignore temporary files
 *.swp
+
+# IDE
+.idea/
+
+# generated plots
+part2_importance.svg
+part3_best3_comparison.svg
